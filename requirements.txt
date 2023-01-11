@@ -1,0 +1,8 @@
+fastapi
+pydantic
+uvicorn
+jinja2
+pymongo
+python-dotenv
+boto3
+mysql.connector
