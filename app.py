@@ -65,4 +65,4 @@ async def get_new_message():
 
 
 if __name__ == "__main__":
-    uvicorn.run("app:app", host="0.0.0.0", port=80, reload=True)
+    uvicorn.run("app:app", host="0.0.0.0", port=3000, reload=True)
