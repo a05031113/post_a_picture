@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+.outside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    text-align: center;
+}
+.inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.messageAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.messageImg{
+    width: 100%;
+    object-fit: cover;
+}
+.add{
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.msg{
+    width: calc(100% - 168px);
+    height: 68px;
+    border-width: 1px;
+    border-color: #9ca3af;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+}
+.msg:focus{
+    outline: none;
+}
+.submit{
+    width: 80px;
+    height: 80px;
+    border-width: 0px;
+    background-color: #9ca3af;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #9ca3af7b;
+}
+.messageBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.messageImg{
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.message{
+    padding: 10px;
+    border: #9ca3af;
+    border-top: 0px;
+    border-style: solid;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
